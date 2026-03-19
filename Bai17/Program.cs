@@ -37,5 +37,6 @@ class Bai17
             }
         }
         Console.WriteLine($"So xuat hien nhieu nhat: {maxVal} ({maxCount} lan)");
+        Console.ReadKey();
     }
 }

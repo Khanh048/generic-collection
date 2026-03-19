@@ -26,5 +26,6 @@ class Bai7
         foreach (int n in numbers)
             Console.Write(n + " ");
         Console.WriteLine();
+        Console.ReadKey();
     }
 }

@@ -24,5 +24,6 @@ class Bai13
             new Student { Id = 3, Name = "Le Van Chau" }
         };
         Console.WriteLine($"Tong so sinh vien: {students.Count}");
+        Console.ReadKey();
     }
 }

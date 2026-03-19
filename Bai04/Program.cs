@@ -18,5 +18,6 @@ class Bai4
         foreach (int n in numbers)
             if (n % 2 == 0) count++;
         Console.WriteLine($"So luong so chan: {count}");
+        Console.ReadKey();
     }
 }

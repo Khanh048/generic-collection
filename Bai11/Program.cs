@@ -27,5 +27,6 @@ class Bai11
         Console.WriteLine("Danh sach sinh vien:");
         foreach (var s in students)
             Console.WriteLine($"ID: {s.Id} - Ten: {s.Name}");
+        Console.ReadKey();
     }
 }

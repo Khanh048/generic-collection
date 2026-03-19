@@ -25,5 +25,6 @@ class Bai16
         Console.WriteLine("Ket qua:");
         foreach (var pair in charCount)
             Console.WriteLine($"{pair.Key} : {pair.Value}");
+        Console.ReadKey();
     }
 }

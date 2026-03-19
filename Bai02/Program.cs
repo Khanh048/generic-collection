@@ -24,5 +24,6 @@ class Bai2
         int sum = 0;
         foreach (int n in numbers) sum += n;
         Console.WriteLine($"Tong cac phan tu: {sum}");
+        Console.ReadKey();
     }
 }

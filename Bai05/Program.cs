@@ -22,5 +22,6 @@ class Bai5
         else
             Console.WriteLine("Khong tim thay ten nay.");
         Console.WriteLine("Danh sach sau khi xoa: " + string.Join(", ", students));
+        Console.ReadKey();
     }
 }

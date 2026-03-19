@@ -32,5 +32,6 @@ class Bai18
         foreach (var s in students)
             if (s.Score > best.Score) best = s;
         Console.WriteLine($"\nSinh vien diem cao nhat: {best.Name} - Diem: {best.Score}");
+        Console.ReadKey();
     }
 }

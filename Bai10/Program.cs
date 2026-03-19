@@ -25,5 +25,6 @@ class Bai10
         foreach (int n in numbers)
             if (n < min) min = n;
         Console.WriteLine($"So nho nhat: {min}");
+        Console.ReadKey();
     }
 }

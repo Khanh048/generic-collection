@@ -17,5 +17,6 @@ class Bai8
         Console.WriteLine("Danh sach ban dau: " + string.Join(", ", numbers));
         numbers.Reverse();
         Console.WriteLine("Danh sach sau khi dao nguoc: " + string.Join(", ", numbers));
+        Console.ReadKey();
     }
 }

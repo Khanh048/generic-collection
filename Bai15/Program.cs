@@ -26,5 +26,6 @@ class Bai15
             Console.WriteLine($"Nghia: {dict[word]}");
         else
             Console.WriteLine("Khong tim thay tu nay trong tu dien.");
+        Console.ReadKey();
     }
 }

@@ -19,5 +19,6 @@ class Bai9
         foreach (int n in numbers)
             if (!unique.Contains(n)) unique.Add(n);
         Console.WriteLine("Danh sach khong trung: " + string.Join(", ", unique));
+        Console.ReadKey();
     }
 }

@@ -20,5 +20,6 @@ class Bai6
             Console.WriteLine($"'{input}' ton tai trong danh sach.");
         else
             Console.WriteLine($"'{input}' khong ton tai trong danh sach.");
+        Console.ReadKey();
     }
 }

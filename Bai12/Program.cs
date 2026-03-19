@@ -36,5 +36,6 @@ class Bai12
             }
         }
         if (!found) Console.WriteLine("Khong tim thay sinh vien.");
+        Console.ReadKey();
     }
 }

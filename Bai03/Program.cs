@@ -19,11 +19,13 @@ class Bai3
         for (int i = 0; i < count; i++)
         {
             Console.Write($"Nhap phan tu {i + 1}: ");
+            
             numbers.Add(int.Parse(Console.ReadLine()));
         }
         int max = numbers[0];
         foreach (int n in numbers)
             if (n > max) max = n;
         Console.WriteLine($"So lon nhat: {max}");
+        Console.ReadKey();
     }
 }
